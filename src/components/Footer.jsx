@@ -23,7 +23,7 @@ export default function Footer() {
 
           <a href="https://www.facebook.com/share/15WsHtZ3gZK/?mibextid=wwXIfr" target="_blank" rel="noopener noreferrer" className="text-sm hover:underline">Facebook</a>
           <a href="https://youtube.com/@sachithshilshan?si=Du0Jyz51hRUBhGE3" target="_blank" rel="noopener noreferrer" className="text-sm hover:underline">YouTube</a>
-          <a href="mailto:Shilshan@outlook.com" className="text-sm text-slate-600 dark:text-slate-300 underline">Email</a>
+          <a href="mailto:its.shilshan@gmail.com" className="text-sm text-slate-600 dark:text-slate-300 underline">Email</a>
         </div>
 
         <div className="text-sm text-slate-500 dark:text-slate-400 text-center md:text-right">

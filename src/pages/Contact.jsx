@@ -51,7 +51,7 @@ export default function Contact() {
                 <svg className="w-5 h-5 text-green-600" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" d="M21 12.79A9 9 0 1111.21 3"/></svg>
                 <div>
                   <div className="font-medium">WhatsApp</div>
-                  <a href="https://wa.me/94771123977" target="_blank" rel="noopener noreferrer" className="underline">Chat on WhatsApp</a>
+                  <a href="https://wa.me/94771123977" target="_blank" rel="noopener noreferrer" className="underline">chat on whatsapp</a>
                 </div>
               </div>
 
@@ -59,7 +59,7 @@ export default function Contact() {
                 <svg className="w-5 h-5 text-rose-500" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg>
                 <div>
                   <div className="font-medium">Email</div>
-                  <a href="mailto:its.shilshan@outlook.com" className="underline">its.shilshan@outlook.com</a>
+                  <a href="mailto:its.shilshan@gmail.com" className="underline">its.shilshan</a>
                 </div>
               </div>
 
@@ -67,7 +67,7 @@ export default function Contact() {
                 <svg className="w-5 h-5 text-sky-600" viewBox="0 0 24 24" fill="none" stroke="currentColor"><path strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" d="M16 8a6 6 0 10-8 0v8a4 4 0 004 4h0a4 4 0 004-4V8z"/></svg>
                 <div>
                   <div className="font-medium">LinkedIn</div>
-                  <a href="https://www.linkedin.com/in/sachith-shilshan/" target="_blank" rel="noopener noreferrer" className="underline">Shilshan </a>
+                  <a href="https://www.linkedin.com/in/sachith-shilshan/" target="_blank" rel="noopener noreferrer" className="underline">shilshan </a>
                 </div>
               </div>
             </div>

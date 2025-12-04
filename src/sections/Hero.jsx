@@ -73,7 +73,7 @@ export default function Hero({
 
                 <div className="mt-5 flex items-center gap-3">
                   <a
-                    href="mailto:its.shilshan@outlook.com"
+                    href="mailto:its.shilshan@gmail.com"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-xs bg-green-50 dark:bg-green-900/20 text-blue-400 dark:text-blue-200 px-2 py-1 rounded-full border border-green-100 dark:border-blue-700"

@@ -62,7 +62,7 @@ export default function ContactForm() {
     try {
       const subject = encodeURIComponent(`Contact from  site — ${form.name}`);
       const body = encodeURIComponent(`Name: ${form.name}\nEmail: ${form.email}\nPhone: ${form.phone}\n\n${form.message}`);
-      window.location.href = `mailto:its.shilshan@outlook.com?subject=${subject}&body=${body}`;
+      window.location.href = `mailto:its.shilshan@gmail.com?subject=${subject}&body=${body}`;
       setStatus({ loading: false, success: 'Mail client opened — send the message from your email app.', error: '' });
       setShowToast(true);
       setForm({ name: '', email: '', phone: '', message: '' });
@@ -147,7 +147,7 @@ export default function ContactForm() {
             {status.loading ? 'Sending…' : 'Send Message'}
           </button>
 
-          <a href="mailto:its.shilshan@outlook.com" className="text-sm text-slate-600 dark:text-slate-300 underline">Or email us directly</a>
+          <a href="mailto:its.shilshan@gmail.com" className="text-sm text-slate-600 dark:text-slate-300 underline">Or email us directly</a>
         </div>
 
         {/* status */}
