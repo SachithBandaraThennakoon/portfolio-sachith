@@ -72,7 +72,7 @@ export default function Portfolio() {
             </ul>
 
             <div className="mt-6">
-              <a href="https://xceed-global.github.io/xceed-analytics/#/departments" target="_blank" rel="noopener noreferrer" className="inline-flex items-center px-4 py-2 rounded-md bg-teal-600 text-white">
+              <a href="https://xceed-global.github.io/xceed-analytics/#/departments/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center px-4 py-2 rounded-md bg-teal-600 text-white">
                 Open live dashboard demo
               </a>
             </div>
