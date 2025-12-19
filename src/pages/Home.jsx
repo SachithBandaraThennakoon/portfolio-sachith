@@ -53,13 +53,37 @@ export default function Home() {
   return (
     <div>
       <Hero
-        title="Empowering Humans & Businesses to Exceed"
+        title={
+          <div className="flex flex-col gap-3">
+            {/* Main title */}
+            <h1 className="text-3xl sm:text-4xl xl:text-5xl font-bold leading-tight tracking-tight">
+              Empowering Humans & Businesses to{" "}
+              <span className="text-emerald-600">Exceed</span>
+            </h1>
+
+            {/* Domain badge */}
+            <a
+              href="https://xceed.live"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 w-fit px-4 py-1.5 rounded-full
+                   text-emerald-700 text-sm font-semibold
+                   border border-emerald-200
+                   transition-all"
+            >
+              🌐 xceed.live
+              <span className="text-xs opacity-70">Official Platform</span>
+            </a>
+          </div>
+        }
         subtitle="Helping people and companies go beyond their limits using smart, innovative solutions."
-        cta={{ text: 'Talk to an Expert', href: '/contact' }}
+        cta={{ text: "Talk to an Expert", href: "/contact" }}
       />
 
+
+
       {/* Trust strip */}
-     
+
 
       {/* Feature grid */}
       <FeaturesGrid features={features} />
