@@ -48,12 +48,12 @@ export default function Hero({
     />
 
               {/* Name */}
-              <div className="text-xl font-bold mt-3">
+              <div className="text-xl font-bold mt-3 text-center">
                 Sachith Bandara Thennakoon
               </div>
 
               {/* Title */}
-              <div className="text-sm opacity-80">
+              <div className="text-sm opacity-80 text-center">
                 Data Science & AI | Automation | Business Intelligence
               </div>
 
