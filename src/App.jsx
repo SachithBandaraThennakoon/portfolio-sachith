@@ -13,6 +13,8 @@ import BI from './pages/Services/BI';
 import Automation from './pages/Services/Automation';
 import Research from './pages/Services/Research';
 import Robotics from './pages/Services/Robotics';
+import AIConsultant from './pages/AIConsultant';
+
 
 export default function App() {
   return (
@@ -32,6 +34,9 @@ export default function App() {
         <Route path="/products" element={<Products />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contact" element={<Contact />} />
+
+        <Route path="/ai-consultant" element={<AIConsultant />} />
+
         <Route path="*" element={<Home />} />
       </Routes>
     </MainLayout>
