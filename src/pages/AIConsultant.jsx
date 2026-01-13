@@ -1,7 +1,7 @@
 // src/pages/AIConsultant.jsx
 import React, { useEffect, useRef, useState } from "react";
 
-const API_BASE_URL = "https://xceed-ai-ba-backend-duf2gxf2ddb7c4f6.southeastasia-01.azurewebsites.net";
+const API_BASE_URL = "https://xceed-ai-backend-d6gxh2d8ecbrbjds.southeastasia-01.azurewebsites.net/";
 
 export default function AIConsultant() {
   const [messages, setMessages] = useState([
