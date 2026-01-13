@@ -49,7 +49,7 @@ export default function Header() {
             <NavItem to="/products">Products</NavItem>
             <NavItem to="/portfolio">Portfolio</NavItem>
             <NavItem to="/contact">Contact</NavItem>
-            <NavItem to="#/AIConsultant">AIConsultant</NavItem>
+            <NavItem to="/ai-consultant">AIConsultant</NavItem>
           </nav>
         </div>
 

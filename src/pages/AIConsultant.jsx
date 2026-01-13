@@ -35,7 +35,12 @@ export default function AIConsultant() {
         })
       });
 
+      if (!res.ok) {
+        throw new Error("API error");
+      }
+
       const data = await res.json();
+
       setSessionId(data.session_id);
 
       setMessages((m) =>
@@ -66,11 +71,10 @@ export default function AIConsultant() {
             ) : (
               <div
                 key={i}
-                className={`max-w-[85%] px-3 py-2 rounded-lg ${
-                  m.sender === "user"
+                className={`max-w-[85%] px-3 py-2 rounded-lg ${m.sender === "user"
                     ? "ml-auto bg-blue-600 text-white"
                     : "bg-slate-800 text-slate-200"
-                }`}
+                  }`}
               >
                 {m.text}
               </div>
