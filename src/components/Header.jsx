@@ -87,6 +87,7 @@ export default function Header() {
           <Link to="/products" className="block px-3 py-2 rounded-md text-base font-medium">Products</Link>
           <Link to="/portfolio" className="block px-3 py-2 rounded-md text-base font-medium">Portfolio</Link>
           <Link to="/contact" className="block px-3 py-2 rounded-md text-base font-medium">Contact</Link>
+          <Link to="/ai-consultant" className="block px-3 py-2 rounded-md text-base font-medium">AIConsultant</Link>
         </div>
       </div>
     </header>
