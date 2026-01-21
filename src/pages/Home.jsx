@@ -5,6 +5,7 @@ import FeaturesGrid from '../sections/FeaturesGrid';
 import ServicesList from '../sections/ServicesList';
 import servicesData from '../data/servicesData';
 import { Link } from 'react-router-dom';
+import ChatWidget from "../components/ChatWidget";
 
 export default function Home() {
   const features = [
@@ -80,7 +81,8 @@ export default function Home() {
         cta={{ text: "Talk to an Expert", href: "/contact" }}
       />
 
-
+  {/* existing home content */}
+  <ChatWidget />
 
       {/* Trust strip */}
 
