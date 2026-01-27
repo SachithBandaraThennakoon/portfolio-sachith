@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>XCEED</title>
+    <script>
+      // Redirect all routes to index.html for React Router
+      var pathname = window.location.pathname;
+      window.location.replace(
+        window.location.origin + "/?redirect=" + pathname
+      );
+    </script>
+  </head>
+  <body></body>
+</html>
