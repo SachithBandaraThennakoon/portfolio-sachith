@@ -1,7 +1,19 @@
 // src/pages/Portfolio.jsx
 import React from 'react';
 
+const Agentic = [
+  {
+    title: 'Intelligent Document System',
+    url: 'https://github.com/SachithBandaraThennakoon/document-ai-poc-v1'
+  },
+  { title: 'AI-Powered Pre-Sales Consultant', url: 'https://www.xceed.live/ai-consultant' },
+  { title: 'An Al-based Martial arts Coaching System', url: 'https://docs.google.com/document/d/1P1X3MEYSnrsRtx3PngDNX_Lf5GxFSfvP5iPkTo-ken8/edit?usp=sharing' },
+];
+
+
+
 const projects = [
+  { title: 'Computer-Vision for Martial-Arts', url: 'https://github.com/SachithBandaraThennakoon/Computer-Vision-for-Martial-Arts' },
   {
     title: 'End-to-End Development: AI-Based Coupon Redemption Prediction System',
     url: 'https://github.com/SachithBandaraThennakoon/End-to-End-Development-AI-Based-Coupon-Redemption-Prediction-System'
@@ -37,9 +49,27 @@ export default function Portfolio() {
         <h1 className="text-3xl font-bold">Portfolio & Projects</h1>
         <p className="mt-2 text-slate-600 dark:text-slate-300">Selected projects, code and articles demonstrating practical AI, BI and automation work.</p>
 
-        <div className="mt-6 grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="mt-6 grid grid-cols-1 md:grid-cols-1 gap-6">
+
+        <div>
+            <h2 className="text-xl font-semibold">Agentic AI Projects</h2>
+            <ul className="mt-4 space-y-3">
+              {Agentic.map((p) => (
+                <li key={p.url} className="p-4 rounded-lg border bg-white dark:bg-slate-800">
+                  <div className="font-semibold">{p.title}</div>
+                  <div className="mt-2 text-sm text-slate-600 dark:text-slate-300">{p.description}</div>
+                  <div className="mt-3">
+                    <a href={p.url} target="_blank" rel="noopener noreferrer" className="text-teal-600 dark:text-teal-300 underline">
+                      View  →
+                    </a>
+                  </div>
+                </li>
+              ))}
+            </ul>
+          </div>
+
           <div>
-            <h2 className="text-xl font-semibold">Projects (GitHub)</h2>
+            <h2 className="text-xl font-semibold">Other Projects</h2>
             <ul className="mt-4 space-y-3">
               {projects.map((p) => (
                 <li key={p.url} className="p-4 rounded-lg border bg-white dark:bg-slate-800">
@@ -47,7 +77,7 @@ export default function Portfolio() {
                   <div className="mt-2 text-sm text-slate-600 dark:text-slate-300">{p.description}</div>
                   <div className="mt-3">
                     <a href={p.url} target="_blank" rel="noopener noreferrer" className="text-teal-600 dark:text-teal-300 underline">
-                      View on GitHub →
+                      View  →
                     </a>
                   </div>
                 </li>
@@ -64,7 +94,7 @@ export default function Portfolio() {
                   <div className="font-semibold">{a.title}</div>
                   <div className="mt-3">
                     <a href={a.url} target="_blank" rel="noopener noreferrer" className="text-teal-600 dark:text-teal-300 underline">
-                      Read on LinkedIn →
+                      Read  →
                     </a>
                   </div>
                 </li>
